@@ -1,0 +1,50 @@
+# R files
+.Rhistory
+.RData
+.Ruserdata
+*.rdb
+*.rdx
+
+# R Markdown
+*_cache/
+*_files/
+*.knit.md
+*.utf8.md
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Output files (keep the main HTML report but ignore cache)
+bayesian_trust_analysis_cache/
+bayesian_trust_analysis_files/
+*.knit.md
+
+# Figure files (generated during analysis)
+figs/*.png
+figs/*.pdf
+figs/*.jpg
+
+# Archive folder (backup files)
+archive/
+
+# Personal paths (if any hardcoded)
+**/Users/*/
+**/Documents/*/
+
+# Logs
+*.log
