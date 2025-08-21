@@ -366,7 +366,7 @@ DT::datatable(results_table,
 
 ## Posterior Distribution Visualizations
 
-```{r exact-visualization, fig.width=6, fig.height=3}
+```{r exact-visualization, fig.width=12, fig.height=9}
 # Create individual visualization plots
 plots_list <- list()
 
@@ -383,17 +383,21 @@ for (i in 1:length(prior_sizes)) {
          y = "Posterior Density") +
     theme_minimal() +
     theme(legend.position = "bottom",
-          plot.title = element_text(size = 11),
-          plot.subtitle = element_text(size = 9))
+          plot.title = element_text(size = 12),
+          plot.subtitle = element_text(size = 10),
+          text = element_text(size = 11))
   
   plots_list[[i]] <- p
 }
 
-# Display plots in grid
-combined_plot <- do.call(grid.arrange, c(plots_list, ncol = 2))
+# Display plots in a properly sized grid
+grid.arrange(grobs = plots_list, ncol = 2, nrow = 3)
+```
 
-# Show individual key plots
-cat("## Key Individual Plots\n")
+### Key Individual Plots
+
+```{r key-individual-plots, fig.width=10, fig.height=4}
+# Show selected key plots with better spacing
 for (i in c(2, 4, 6)) {  # Show 30, 50, 80 samples
   print(plots_list[[i]])
 }
