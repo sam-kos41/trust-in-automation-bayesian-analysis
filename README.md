@@ -2,6 +2,12 @@
 
 > **A comprehensive statistical analysis investigating patient trust in AI healthcare decisions using dual Bayesian methodology and sequential updating techniques.**
 
+## 📊 View Interactive Report
+
+🌐 **[View Live Report](https://sam-kos41.github.io/trust-in-automation-bayesian-analysis/bayesian_trust_analysis.html)** - Interactive HTML report hosted on GitHub Pages
+
+💾 **[Download HTML Report](https://github.com/sam-kos41/trust-in-automation-bayesian-analysis/raw/main/bayesian_trust_analysis.html)** - Download for offline viewing
+
 ## Overview
 
 This project investigates factors influencing patient trust in AI-driven healthcare decisions using both frequentist and Bayesian approaches. The analysis uses a dual methodology that separates parameter estimation from uncertainty quantification.
