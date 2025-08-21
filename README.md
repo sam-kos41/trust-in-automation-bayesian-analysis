@@ -1,5 +1,7 @@
 # Trust in AI Healthcare: A Bayesian Analysis
 
+> **A comprehensive statistical analysis investigating patient trust in AI healthcare decisions using dual Bayesian methodology and sequential updating techniques.**
+
 ## Overview
 
 This project investigates factors influencing patient trust in AI-driven healthcare decisions using both frequentist and Bayesian approaches. The analysis uses a dual methodology that separates parameter estimation from uncertainty quantification.
